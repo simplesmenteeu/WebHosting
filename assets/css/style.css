@@ -143,17 +143,18 @@ nav{
 }
 .planos-container .precos-container .preco{
     background-color: #32D6E2;
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     margin: auto;
     border-radius: 50%;
-    padding-top: 60px;
-    font-size: 25px;
+    padding-top: 45px;
+    font-size: 20px;
     font-weight: 600;
     list-style: none;
     margin-bottom: -65px;
     z-index: 1;
     position: relative;
+    color: white;
 }
 .planos-container .precos-container .nome-plano{
     width: 280px;
@@ -172,11 +173,111 @@ nav{
 }
 .planos-container .precos-container .btn-plano{
     background-color: #32D6E2;
-    color: black;
-    font-size: 26px;
-    font-weight: 600;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
     height: 50px;
+    cursor: pointer;
 }
 .planos-container .precos-container .recomendado{
     background-color: #FF1300;
+    color: white;
+}
+.buscar-dominio{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5em 0;
+}
+.buscar-dominio h2{
+    font-weight: 600;
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.buscar-dominio p{
+    font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+.buscar-dominio input{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    border-radius: 5px;
+}
+.buscar-dominio input[type=text]{
+    width: 60%;
+    margin-bottom: 25px;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    padding: 30px;
+    color: #898989;
+}
+.buscar-dominio input[type=submit]{
+    width: 7.5%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #32D6E2;
+    font-weight: 600;
+    cursor: pointer;
+}
+.contato-container{
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+.contato-container h2{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.contato-container input, .contato-container textarea{
+    width: 222px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.contato-container textarea{
+    display: block;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 468px;
+    height: 150px;
+    background-color: #d9d9d9;
+}
+.contato-container input[type=submit]{
+    display: block;
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #32D6E2;
+    font-weight: 600;
+    border-radius: 50px;
+    width: 6%;
+    cursor: pointer;
+}
+.contato-container input[type=text], .contato-container input[type=email]{
+    border-radius: 50px;
+    background-color: #d9d9d9;
+}
+footer{
+    background-color: black;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 50px;
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-decoration: underline;
 }
